@@ -1,0 +1,53 @@
+body {
+    font-family: "Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif";
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#background img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#header {
+    max-width: 1285.66px;
+    margin: 0 auto;
+
+    padding: 24px 48px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img {
+    width: 148px;
+    height: 40px;
+}
+
+#buttons {
+    display: flex;
+    min-height: 32px;
+    align-items: center;
+}
+
+button {
+    height: 32px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    border-radius: 0.1875rem;
+    line-height: 13px;
+    font-size: 13px;
+    padding: 4px 16px;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    margin-left: 20px;
+}
