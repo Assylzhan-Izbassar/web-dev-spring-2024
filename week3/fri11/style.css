@@ -1,0 +1,96 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;    
+    font-family: "Segoe UI", "SegoeUI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.products {}
+
+.products__container {
+    max-width: 1472px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    min-width: 350px;
+}
+
+.cart {
+    max-width: 350px;
+}
+
+.cart>*:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+/* IMAGE RESPONSIVE */
+.cart__img {
+    position: relative;
+    padding-top: 56%;
+}
+
+.cart__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+}
+
+.cart__content {}
+
+.cart__header {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.cart__desc {}
+
+.cart__action,
+.cart__action a {
+    color: #0067b8;
+}
+
+.cart__action a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cart__action {
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.cart__action i {
+    margin-left: 10px;
+}
+
+
+
+.footer {}
