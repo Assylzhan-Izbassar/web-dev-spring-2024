@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <style>
+        .content__item {
+            background-color: coral;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="content__container">
+            <div class="content__header">
+                <h1>To do</h1>
+                <form action="javascript:;" onsubmit="addTask()">
+                    <input class="content__input" type="text" name="todo">
+                    <button type="submit">Добавить</button>
+                </form>
+            </div>
+            <ul class="content__list">
+                <li class="content__item">Задание 1</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
