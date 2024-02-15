@@ -20,3 +20,7 @@ function addTask() {
 
     value[0].value = ""
 }
+
+
+console.log(typeof(''));
+console.log(typeof(null));
