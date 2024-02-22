@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <div class="content">
+    <ul class="tabs">
+      <li class="tabs__item"><a [routerLink]="['']">Home</a></li>
+      <li class="tabs__item"><a [routerLink]="['tab_1']">Tab 1</a></li>
+      <li class="tabs__item"><a [routerLink]="['tab_2']">Tab 2</a></li>
+    </ul>
+    <div class="content__main">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <footer class="footer">
+    Footer
+  </footer>
+</div>
