@@ -1,4 +1,13 @@
 <a [routerLink]="['child/']">Go to child</a>
 
+<div class="products" *ngIf="products">
+    <ul class="products__list">
+        <li class="products__item" *ngFor="let product of products">
+            {{product.title}}
+        </li>
+    </ul>
+</div>
+
 <app-child [variable]="greeting">
 </app-child>
+
