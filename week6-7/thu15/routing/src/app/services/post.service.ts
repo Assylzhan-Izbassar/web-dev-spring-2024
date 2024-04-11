@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class PostService {
 
-  private readonly url = 'https://dummyjson.com/posts';
+  private readonly url = 'http://127.0.0.1:8000/store/products/';
 
   constructor(private httpClient: HttpClient) { }
 
