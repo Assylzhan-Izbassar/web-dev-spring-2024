@@ -15,5 +15,5 @@ class ProductView(APIView):
         serializer = ProductSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
-            return Response({'message': 'success'}, status=status.HTTP_201_CREATED)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response({'error', 'invalid data'}, status=status.HTTP_400_BAD_REQUEST)

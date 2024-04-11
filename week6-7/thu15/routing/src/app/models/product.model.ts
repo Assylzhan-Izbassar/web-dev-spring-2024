@@ -1,3 +1,3 @@
-interface Product {
+export interface Product {
     name: string;
 }

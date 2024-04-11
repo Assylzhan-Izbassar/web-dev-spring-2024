@@ -1,9 +1,8 @@
-import { Product } from './../../../../../../../angular-example/my-app/src/app/models/product.model';
+import { Product } from '../models/product.model';
 import { Component } from '@angular/core';
 import { PostService } from '../services/post.service';
 import { Post } from '../models/post.model';
 import { ProductService } from '../services/product.service';
-import { error } from 'console';
 
 @Component({
   selector: 'app-tab1',
